@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Jonathan Wight' => 'schwa@toxicsoftware.com' }
   s.source       = { :git => "https://github.com/objectpartners/TouchJSON.git", :tag => "1.1" }
   s.source_files = 'Source/**/*.{h,m}'
-  s.requires_arc = yes
+  s.requires_arc = true
   s.library      = ''
   s.xcconfig     = { }
 end
