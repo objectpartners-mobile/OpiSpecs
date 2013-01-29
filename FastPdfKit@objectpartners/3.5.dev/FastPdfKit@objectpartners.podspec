@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
      
   s.subspec 'FastPdfKit.embeddedframework' do |ss|  	
-     ss.resources = 'FastPdfKit.embeddedframework/Resources/FPKReaderBundle.bundle'
+     ss.resources = 'FastPdfKit.embeddedframework/FastPdfKit.framework/Versions/A/Resources/FPKReaderBundle.bundle'
      ss.source_files = 'FastPdfKit.embeddedframework/FastPdfKit.framework/Headers'
      ss.preserve_paths = 'FastPdfKit.embeddedframework/FastPdfKit.framework', 'FastPdfKit.embeddedframework/Resources'
   
