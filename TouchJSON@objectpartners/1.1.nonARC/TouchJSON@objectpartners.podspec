@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/objectpartners/TouchJSON.git", :tag => "1.1-NonARC" }
   s.source_files = 'Source/**/*.{h,m}'
   s.requires_arc = false
-  s.library      = 'xml2'
-  s.xcconfig     = { }
+  #s.library      = ''
+  #s.xcconfig     = { }
 end
