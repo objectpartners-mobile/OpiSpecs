@@ -32,10 +32,10 @@ Pod::Spec.new do |s|
       unless momd_full.exist?
         puts "\nCompiling CatalogFoundation/ContentStructure Core Data model\n"
         # Local
-        model = Pathname.new(File.expand_path(@@podLocal)) + 'CatalogFoundation/CatalogFoundation/ContentStructure.xcdatamodeld'
+        # model = Pathname.new(File.expand_path(@@podLocal)) + 'CatalogFoundation/CatalogFoundation/ContentStructure.xcdatamodeld'
         
         # Released
-        # model = library.sandbox_dir + 'CatalogFoundation/ContentStructure.xcdatamodeld'
+        model = library.sandbox_dir + 'CatalogFoundation/ContentStructure.xcdatamodeld'
         
         # Make sure the directory is created (Helpful when using local pods)
         commandmkdir = "mkdir -p '#{momd_full}'"
