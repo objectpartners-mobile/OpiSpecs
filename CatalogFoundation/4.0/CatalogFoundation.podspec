@@ -17,45 +17,10 @@ Pod::Spec.new do |s|
   
   #-- Source and Resources
   s.prefix_header_file = "CatalogFoundation/CatalogFoundation-Prefix.pch"
-  s.preserve_paths= '**/*.xcdatamodeld'
-  s.resources = 'CatalogFoundationResources/**/*.{png,gif,jpg,strings}'
-  #s.vendored_frameworks = 'FastPdfKit@objectpartners/FastPdfKit.embeddedframework/FastPdfKit.framework '
+  s.resources = ['CatalogFoundationResources/**/*.{png,gif,jpg,strings}', 'CatalogFoundation/**/*.{xcdatamodeld}']
   
-  s.source_files = 'CatalogFoundation/**/*.{xcdatamodeld,h,m,c}'
+  s.source_files = 'CatalogFoundation/**/*.{h,m,c}'
   s.requires_arc = true
-  
-  #-- Post Install Step (Core Data Model)
-  def s.post_install(library)
-      momd_relative = 'CatalogFoundation/ContentStructure.momd'
-      momd_full = library.sandbox_dir + momd_relative
-
-      unless momd_full.exist?
-        puts "\nCompiling CatalogFoundation/ContentStructure Core Data model\n"
-        # Local
-        # model = Pathname.new(File.expand_path(@@podLocal)) + 'CatalogFoundation/CatalogFoundation/ContentStructure.xcdatamodeld'
-        
-        # Released
-        model = library.sandbox_dir + 'CatalogFoundation/ContentStructure.xcdatamodeld'
-        
-        # Make sure the directory is created (Helpful when using local pods)
-        commandmkdir = "mkdir -p '#{momd_full}'"
-        commandmkdir
-        unless system(commandmkdir)
-          raise ::Pod::Informative, "Failed to create directory '#{momd_full}'"
-        end
-        
-        # Run the xcrun command to compile the momd resource
-        commandxcrun = "xcrun momc '#{model}' '#{momd_full}'"
-        commandxcrun
-        unless system(commandxcrun)
-          raise ::Pod::Informative, "Failed to compile CatalogFoundation/ContentStructure Core Data model"
-        end
-      end
- 
-      File.open(library.copy_resources_script_path, 'a') do |file|
-        file.puts "install_resource '#{momd_relative}'"
-      end
-  end
   
   #--Search Paths
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners/FastPdfKit.embeddedframework"' }
