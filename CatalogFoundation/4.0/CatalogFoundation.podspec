@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   s.dependency 'DTCoreText', '~> 1.6.11'
   s.dependency 'CustomBadge', '~> 2.0'
   s.dependency 'iCarousel', '~> 1.7.6'
+  s.dependency 'AFNetworking', '~> 2.2.4'
   s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
   
   s.dependency 'ContentSync', '~>4'
