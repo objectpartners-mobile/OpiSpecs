@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   @@podLocal = ENV['POD_LOCAL_HOME']
   
   s.name         = "ContentSync"
-  s.version      = "4.3
+  s.version      = "4.3"
   s.summary      = "ContentSync is required to sync content files to the iPad Catalog app instance (using CatalogFoundation)."
   s.homepage     = "https://github.com/objectpartners/contentsynciosfoundation"
   s.license      = {
