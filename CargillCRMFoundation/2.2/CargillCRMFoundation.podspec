@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   s.license      = {
     :type => 'Cargill Proprietary',
     :text => <<-LICENSE
-              Copyright (C) 2.22-2.2.LOCAL4 Cargill Inc.  All rights reserved.
+              Copyright (C) 2010-2015 Cargill Inc.  All rights reserved.
     LICENSE
   }
   s.authors       = {"Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/cargill-crm-iosfoundation.git", :tag => "2.1" }
+  s.source       = { :git => "https://github.com/objectpartners/cargill-crm-iosfoundation.git", :tag => "2.2" }
   s.platform     = :ios, '6.1'
   
   #-- Source and Resources
