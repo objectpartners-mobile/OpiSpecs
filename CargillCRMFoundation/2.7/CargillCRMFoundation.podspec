@@ -36,13 +36,13 @@ Pod::Spec.new do |s|
   s.dependency 'TouchJSON@objectpartners', '1.1'
   
   #-- Dependencies (OPIFoundation)
-  s.dependency 'OPIFoundation/IOSFrameworkCategories', '5.11'
-  s.dependency 'OPIFoundation/UICustomViewsAndControllers', '5.11'
-  s.dependency 'OPIFoundation/UILayoutManagers', '5.11'
-  s.dependency 'OPIFoundation/GlassButton', '5.11'
-  s.dependency 'OPIFoundation/WebBrowser', '5.11'
-  s.dependency 'OPIFoundation/CoreDataTools', '5.11'
-  s.dependency 'OPIFoundation/UtilHelpers', '5.11'
+  s.dependency 'OPIFoundation/IOSFrameworkCategories', '5.10'
+  s.dependency 'OPIFoundation/UICustomViewsAndControllers', '5.10'
+  s.dependency 'OPIFoundation/UILayoutManagers', '5.10'
+  s.dependency 'OPIFoundation/GlassButton', '5.10'
+  s.dependency 'OPIFoundation/WebBrowser', '5.10'
+  s.dependency 'OPIFoundation/CoreDataTools', '5.10'
+  s.dependency 'OPIFoundation/UtilHelpers', '5.10'
 
     
   #-- Frameworks and Libraries
