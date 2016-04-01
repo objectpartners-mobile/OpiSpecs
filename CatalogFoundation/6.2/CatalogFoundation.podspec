@@ -34,11 +34,11 @@ Pod::Spec.new do |s|
   s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
   s.dependency 'FXLabel', '~> 1.5.8'
   
-  s.dependency 'ContentSync', '~> 5.2'
-  s.dependency 'OPIFoundation/UILayoutManagers', '~> 5.5'
-  s.dependency 'OPIFoundation/UISketchPad', '~> 5.5'
-  s.dependency 'OPIFoundation/UICustomViewsAndControllers', '~> 5.5'
-  #s.dependency 'OPIFoundation/UIThirdParty', '~> 5.5'
+  s.dependency 'ContentSync', '~> 6.2'
+  s.dependency 'OPIFoundation/UILayoutManagers', '~> 6.2'
+  s.dependency 'OPIFoundation/UISketchPad', '~> 6.2'
+  s.dependency 'OPIFoundation/UICustomViewsAndControllers', '~> 6.2'
+  #s.dependency 'OPIFoundation/UIThirdParty', '~> 6.2'
     
   #-- Frameworks and Libraries
   s.libraries = 'z', 'xml2', 'sqlite3.0'
