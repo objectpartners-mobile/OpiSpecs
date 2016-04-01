@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   s.dependency 'TouchJSON@objectpartners', '~> 1.1'
   s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
   
-  s.dependency 'OPIFoundation/UtilHelpers', '~> 5.10'
-  s.dependency 'OPIFoundation/IOSFrameworkCategories' , '~> 5.10'
-  s.dependency 'OPIFoundation/AppUpdater', '~> 5.10'
-  s.dependency 'OPIFoundation/ZipArchive', '~> 5.10'
+  s.dependency 'OPIFoundation/UtilHelpers', '~> 6.2'
+  s.dependency 'OPIFoundation/IOSFrameworkCategories' , '~> 6.2'
+  s.dependency 'OPIFoundation/AppUpdater', '~> 6.2'
+  s.dependency 'OPIFoundation/ZipArchive', '~> 6.2'
   
 end
