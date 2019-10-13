@@ -1,6 +1,4 @@
 Pod::Spec.new do |s|
-  @@podLocal = ENV['POD_LOCAL_HOME']
-
   s.name         = "ContentSync"
   s.version      = "7.0"
   s.summary      = "ContentSync is required to sync content files to the iPad Catalog app instance (using CatalogFoundation)."
@@ -29,9 +27,9 @@ Pod::Spec.new do |s|
   s.dependency 'TouchJSON@objectpartners', '~> 1.1'
   s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
 
-  s.dependency 'OPIFoundation/UtilHelpers', '~> 6.5'
-  s.dependency 'OPIFoundation/IOSFrameworkCategories', '~> 6.5'
-  s.dependency 'OPIFoundation/AppUpdater', '~> 6.5'
-  s.dependency 'OPIFoundation/ZipArchive', '~> 6.5'
+  s.dependency 'OPIFoundation/UtilHelpers', '~> 7.0'
+  s.dependency 'OPIFoundation/IOSFrameworkCategories', '~> 7.0'
+  s.dependency 'OPIFoundation/AppUpdater', '~> 7.0'
+  s.dependency 'OPIFoundation/ZipArchive', '~> 7.0'
 
 end

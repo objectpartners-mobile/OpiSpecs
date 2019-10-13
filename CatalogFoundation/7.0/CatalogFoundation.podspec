@@ -1,6 +1,4 @@
 Pod::Spec.new do |s|
-  @@podLocal = ENV['POD_LOCAL_HOME']
-
   s.name         = "CatalogFoundation"
   s.version      = "7.0"
   s.summary      = "CatalogFoundation is required to provide the basics for Salesfolio (Catalog App) UI and accessing offline content."
@@ -29,14 +27,14 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
   s.dependency 'FXLabel', '~> 1.5.8'
+  s.dependency 'FoxitPDF', '~> 6.4'
 
   s.dependency 'ContentSync', '~> 7.0'
-  s.dependency 'OPIFoundation/UILayoutManagers', '~> 6.5'
-  s.dependency 'OPIFoundation/UISketchPad', '~> 6.5'
-  s.dependency 'OPIFoundation/UICustomViewsAndControllers', '~> 6.5'
+  s.dependency 'OPIFoundation/UILayoutManagers', '~> 7.0'
+  s.dependency 'OPIFoundation/UISketchPad', '~> 7.0'
+  s.dependency 'OPIFoundation/UICustomViewsAndControllers', '~> 7.0'
 
   #-- Frameworks and Libraries
-  s.ios.vendored_frameworks = 'Frameworks/FoxitRDK.framework'
   s.libraries = 'z', 'xml2', 'sqlite3.0'
   s.frameworks = 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreData', 'CoreGraphics', 'CoreMedia', 'CoreText', 'Foundation', 'ImageIO', 'MediaPlayer', 'MediaToolbox', 'MessageUI', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'QuickLook', 'UIKit', 'Security', 'SystemConfiguration'
 end
