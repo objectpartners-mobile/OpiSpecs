@@ -23,13 +23,13 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'MobileCoreServices', 'SystemConfiguration'
 
   #-- Dependencies (Third Party)
+  s.dependency 'Reachability', '~> 3.2'
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'TouchJSON@objectpartners', '~> 1.1'
   s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
 
   s.dependency 'OPIFoundation/UtilHelpers', '~> 7.1'
   s.dependency 'OPIFoundation/IOSFrameworkCategories', '~> 7.1'
-  s.dependency 'OPIFoundation/AppUpdater', '~> 7.1'
   s.dependency 'OPIFoundation/ZipArchive', '~> 7.1'
 
 end
