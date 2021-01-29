@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   #--Search Paths
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners/FastPdfKit.embeddedframework"' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework"' }
   
   #-- Dependencies (Third Party)
   s.dependency 'FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework', '4.0'

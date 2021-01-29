@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   	ss.weak_frameworks = 'MediaToolbox'
   	
   	#--Search Paths
-    ss.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners/FastPdfKit.embeddedframework"' }
+    ss.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework"' }
   
   	#-- Third Party --
   	ss.dependency  'AFNetworking', '~> 1.1'
@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   	ss.weak_frameworks = 'MediaToolbox'
   	
   	ss.dependency  'AFNetworking', '~> 1.1'
-  	ss.dependency  'TouchJSON@objectpartners', '1.1'
+  	ss.dependency  'TouchJSON@objectpartners-mobile', '1.1'
   	
   	ss.dependency 'CatalogFoundationFileBased/CatalogFoundation'
   	

@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   	ss.frameworks = 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreData', 'CoreGraphics', 'CoreMedia', 'CoreText', 'Foundation', 'ImageIO', 'MediaPlayer', 'MediaToolbox', 'MessageUI', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'QuickLook', 'UIKit', 'Security', 'SystemConfiguration'
   	
   	ss.dependency  'AFNetworking', '~> 1.1'
-  	ss.dependency  'TouchJSON@objectpartners', '1.1'
+  	ss.dependency  'TouchJSON@objectpartners-mobile', '1.1'
   	
   	#-- In House (local) --
   	#ss.dependency 'OPIFoundation/UtilHelpers', :local => '~/PodsLocal/OPIFoundation'

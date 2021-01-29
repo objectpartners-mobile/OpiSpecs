@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.dependency 'CustomBadge', '~> 3.0'
   s.dependency 'iCarousel', '~> 1.8.2'
   s.dependency 'AFNetworking', '~> 3.1.0'
-  s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
+  s.dependency 'PDKeychainBindingsController@objectpartners-mobile', '~> 1.1'
   s.dependency 'FXLabel', '~> 1.5.8'
   s.dependency 'FoxitPDF', '~> 6.4'
 

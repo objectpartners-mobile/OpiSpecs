@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   #--Search Paths
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners/FastPdfKit.embeddedframework"' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework"' }
   
   #-- Dependencies (Third Party)
   s.dependency 'FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework', '4.0'
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.dependency 'CustomBadge', '~> 2.0'
   s.dependency 'iCarousel', '~> 1.7.6'
   s.dependency 'AFNetworking', '~> 2.2.4'
-  s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
+  s.dependency 'PDKeychainBindingsController-mobile', '~> 1.1'
   
   s.dependency 'ContentSync', '~> 4.2'
   s.dependency 'OPIFoundation/UILayoutManagers', '~> 4.1'

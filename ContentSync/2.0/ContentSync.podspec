@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   
   #-- Dependencies (Third Party)
   #s.dependency 'AFNetworking', '~> 1.1'
-  #s.dependency 'TouchJSON@objectpartners', '~> 1.1'
+  #s.dependency 'TouchJSON@objectpartners-mobile', '~> 1.1'
   
   #--BEGIN LOCAL In-House Dependencies
 #  s.dependency 'OPIFoundation/UtilHelpers', :local => @@podLocal + '/OPIFoundation'

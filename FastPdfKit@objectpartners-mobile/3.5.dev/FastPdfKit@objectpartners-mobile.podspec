@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
      ss.framework = 'FastPdfKit'
      ss.library = 'z'
   	
-    ss.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners/FastPdfKit.embeddedframework"' } 
+    ss.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework"' } 
   end
   
 end

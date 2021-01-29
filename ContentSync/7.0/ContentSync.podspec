@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
 
   #-- Dependencies (Third Party)
   s.dependency 'AFNetworking', '~> 3.1.0'
-  s.dependency 'TouchJSON@objectpartners', '~> 1.1'
-  s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
+  s.dependency 'TouchJSON@objectpartners-mobile', '~> 1.1'
+  s.dependency 'PDKeychainBindingsController@objectpartners-mobile', '~> 1.1'
 
   s.dependency 'OPIFoundation/UtilHelpers', '~> 7.0'
   s.dependency 'OPIFoundation/IOSFrameworkCategories', '~> 7.0'

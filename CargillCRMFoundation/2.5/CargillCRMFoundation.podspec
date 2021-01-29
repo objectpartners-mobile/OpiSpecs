@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.dependency 'Reachability', '~>3.2'
   s.dependency 'CocoaLumberjack', '2.0.0-rc'
   
-  s.dependency 'TouchJSON@objectpartners', '1.1'
+  s.dependency 'TouchJSON@objectpartners-mobile', '1.1'
   
   #-- Dependencies (OPIFoundation)
   s.dependency 'OPIFoundation/IOSFrameworkCategories', '5.10'
