@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "ContentSync"
   s.version      = "1.2"
   s.summary      = "ContentSync is required to sync content files to the iPad Catalog app instance (using CatalogFoundation)."
-  s.homepage     = "https://github.com/objectpartners/contentsynciosfoundation"
+  s.homepage     = "https://github.com/objectpartners-mobile/contentsynciosfoundation"
   s.license      = {
     :type => 'OPI Proprietary',
     :text => <<-LICENSE
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = { "Steve McCoole" => "steve.mccoole@objectpartners.com", "Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/contentsynciosfoundation.git", :tag => "1.2" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/contentsynciosfoundation.git", :tag => "1.2" }
   s.platform     = :ios, '5.0'
   
   #--- Source and Resources

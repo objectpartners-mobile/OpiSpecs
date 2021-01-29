@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name         = "CatalogFoundationFileBased"
   s.version      = "1.2.filesys"
   s.summary      = "CatalogFoundationFileBased version is the file system only version used specifically by Tolomatic."
-  s.homepage     = "https://github.com/objectpartners/CatalogFoundation.git/tree/FileSystem"
+  s.homepage     = "https://github.com/objectpartners-mobile/CatalogFoundation.git/tree/FileSystem"
   s.license      = {
     :type => 'OPI Proprietary',
     :text => <<-LICENSE
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = { "Steve McCoole" => "steve.mccoole@objectpartners.com", "Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/CatalogFoundation.git", :tag => "1.2.filesys" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/CatalogFoundation.git", :tag => "1.2.filesys" }
   s.platform     = :ios, '5.0'
   
   s.prefix_header_file = "ContentFoundation/ContentFoundation-Prefix.pch"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   	
   	#-- Third Party --
   	ss.dependency  'AFNetworking', '~> 1.1'
-  	ss.dependency  'FastPdfKit@objectpartners/FastPdfKit.embeddedframework', '3.5.dev'
+  	ss.dependency  'FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework', '3.5.dev'
   	
   	#--BEGIN LOCAL In-House Dependencies
 #  	ss.dependency 'OPIFoundation/UILayoutManagers', :local => @@podLocal + '/OPIFoundation'

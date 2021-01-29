@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "CatalogFoundation"
   s.version      = "7.1"
   s.summary      = "CatalogFoundation is required to provide the basics for Salesfolio (Catalog App) UI and accessing offline content."
-  s.homepage     = "https://github.com/objectpartners/catalogiosfoundation"
+  s.homepage     = "https://github.com/objectpartners-mobile/catalogiosfoundation"
   s.license      = {
     :type => 'OPI Proprietary',
     :text => <<-LICENSE
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = { "Steve McCoole" => "steve.mccoole@objectpartners.com", "Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/catalogiosfoundation.git", :tag => "7.1" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/catalogiosfoundation.git", :tag => "7.1" }
   s.platform     = :ios, '9.0'
 
   #-- Source and Resources

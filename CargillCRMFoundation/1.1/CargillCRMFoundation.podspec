@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name         = "CargillCRMFoundation"
   s.version      = "1.1"
   s.summary      = "CargillCRMFoundation is required for all Cargill CRM apps that use a reusable set of UI Components and Utilities."
-  s.homepage     = "https://github.com/objectpartners/cargill-crm-iosfoundation"
+  s.homepage     = "https://github.com/objectpartners-mobile/cargill-crm-iosfoundation"
   s.license      = {
     :type => 'Cargill Proprietary',
     :text => <<-LICENSE
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = {"Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/cargill-crm-iosfoundation.git", :tag => "1.1" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/cargill-crm-iosfoundation.git", :tag => "1.1" }
   s.platform     = :ios, '6.1'
   
   #-- Source and Resources
