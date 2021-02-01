@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "TouchJSON@objectpartners"
+  s.name         = "TouchJSON@objectpartners-mobile"
   s.version      = "1.1"
   s.summary      = "Version fork of TouchJSON."
   s.homepage     = "https://github.com/TouchCode/TouchJSON.git"

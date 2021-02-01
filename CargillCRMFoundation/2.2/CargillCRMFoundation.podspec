@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = {"Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/cargill-crm-iosfoundation.git", :tag => "2.2" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/cargill-crm-iosfoundation.git", :tag => "2.2" }
   s.platform     = :ios, '6.1'
   
   #-- Source and Resources
