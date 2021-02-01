@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name         = "OPIFoundation"
   s.version      = "1.6.mod"
   s.summary      = "OPIFoundation is a collection of categories and helper classes used in multiple OPI projects."
-  s.homepage     = "https://github.com/objectpartners/opiiosfoundation/tree/modularize"
+  s.homepage     = "https://github.com/objectpartners-mobile/opiiosfoundation/tree/modularize"
   s.license      = {
     :type => 'OPI Proprietary',
     :text => <<-LICENSE
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = { "Steve McCoole" => "steve.mccoole@objectpartners.com", "Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/opiiosfoundation.git", :tag => "1.6.mod" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/opiiosfoundation.git", :tag => "1.6.mod" }
   
   s.platform     = :ios, '5.0'
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.subspec 'TouchXMLExtensions' do |ss|
     ss.source_files = 'TouchXMLExtensions/**/*.{h,m,c}'
   	ss.requires_arc = false
-  	ss.dependency 'TouchXML@objectpartners', '~> 0.2'
+  	ss.dependency 'TouchXML@objectpartners-mobile', '~> 0.2'
   end
   
   s.subspec 'SignatureCapture' do |ss|

@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name         = "CatalogFoundation"
   s.version      = "5.9"
   s.summary      = "CatalogFoundation is required to provide the basics for Salesfolio (Catalog App) UI and accessing offline content."
-  s.homepage     = "https://github.com/objectpartners/catalogiosfoundation"
+  s.homepage     = "https://github.com/objectpartners-mobile/catalogiosfoundation"
   s.license      = {
     :type => 'OPI Proprietary',
     :text => <<-LICENSE
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = { "Steve McCoole" => "steve.mccoole@objectpartners.com", "Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/catalogiosfoundation.git", :tag => "5.9" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/catalogiosfoundation.git", :tag => "5.9" }
   s.platform     = :ios, '6.0'
   
   #-- Source and Resources
@@ -23,15 +23,15 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   #--Search Paths
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners/FastPdfKit.embeddedframework"' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-all_load', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework"' }
   
   #-- Dependencies (Third Party)
-  s.dependency 'FastPdfKit@objectpartners/FastPdfKit.embeddedframework', '4.0'
+  s.dependency 'FastPdfKit@objectpartners-mobile/FastPdfKit.embeddedframework', '4.0'
   s.dependency 'DTCoreText', '~> 1.6.11'
   s.dependency 'CustomBadge', '~> 2.0'
   s.dependency 'iCarousel', '~> 1.7.6'
   s.dependency 'AFNetworking', '~> 2.2.4'
-  s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
+  s.dependency 'PDKeychainBindingsController@objectpartners-mobile', '~> 1.1'
   s.dependency 'FXLabel', '~> 1.5.8'
   
   s.dependency 'ContentSync', '~> 5.2'

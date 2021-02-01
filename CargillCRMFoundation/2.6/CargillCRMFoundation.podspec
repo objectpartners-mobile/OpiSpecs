@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name         = "CargillCRMFoundation"
   s.version      = "2.6"
   s.summary      = "CargillCRMFoundation is required for all Cargill CRM apps that use a reusable set of UI Components and Utilities."
-  s.homepage     = "https://github.com/objectpartners/cargill-crm-iosfoundation"
+  s.homepage     = "https://github.com/objectpartners-mobile/cargill-crm-iosfoundation"
   s.license      = {
     :type => 'Cargill Proprietary',
     :text => <<-LICENSE
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = {"Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/cargill-crm-iosfoundation.git", :tag => "2.6" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/cargill-crm-iosfoundation.git", :tag => "2.6" }
   s.platform     = :ios, '6.1'
   
   #-- Source and Resources
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.dependency 'Reachability', '~>3.2'
   s.dependency 'CocoaLumberjack', '2.0.0-rc'
   
-  s.dependency 'TouchJSON@objectpartners', '1.1'
+  s.dependency 'TouchJSON@objectpartners-mobile', '1.1'
   
   #-- Dependencies (OPIFoundation)
   s.dependency 'OPIFoundation/IOSFrameworkCategories', '5.11'

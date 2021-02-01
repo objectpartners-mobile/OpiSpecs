@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "ContentSync"
   s.version      = "7.0"
   s.summary      = "ContentSync is required to sync content files to the iPad Catalog app instance (using CatalogFoundation)."
-  s.homepage     = "https://github.com/objectpartners/contentsynciosfoundation"
+  s.homepage     = "https://github.com/objectpartners-mobile/contentsynciosfoundation"
   s.license      = {
     :type => 'OPI Proprietary',
     :text => <<-LICENSE
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors       = { "Steve McCoole" => "steve.mccoole@objectpartners.com", "Torey Lomenda" => "torey.lomenda@objectpartners.com" }
-  s.source       = { :git => "https://github.com/objectpartners/contentsynciosfoundation.git", :tag => "7.0" }
+  s.source       = { :git => "https://github.com/objectpartners-mobile/contentsynciosfoundation.git", :tag => "7.0" }
   s.platform     = :ios, '9.0'
 
   #--- Source and Resources
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
 
   #-- Dependencies (Third Party)
   s.dependency 'AFNetworking', '~> 3.1.0'
-  s.dependency 'TouchJSON@objectpartners', '~> 1.1'
-  s.dependency 'PDKeychainBindingsController@objectpartners', '~> 1.1'
+  s.dependency 'TouchJSON@objectpartners-mobile', '~> 1.1'
+  s.dependency 'PDKeychainBindingsController@objectpartners-mobile', '~> 1.1'
 
   s.dependency 'OPIFoundation/UtilHelpers', '~> 7.0'
   s.dependency 'OPIFoundation/IOSFrameworkCategories', '~> 7.0'
